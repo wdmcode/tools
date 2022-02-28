@@ -54,7 +54,7 @@ var wordCmd = &cobra.Command{
 			log.Fatal("暂不支持该转化模式，请执行 help word 查看帮助文档")
 		}
 
-		log.Printf("输出结果：%s", content)
+		log.Printf("%s", content)
 	},
 }
 
