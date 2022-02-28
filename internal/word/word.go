@@ -20,7 +20,7 @@ func UnderscoreToUpperCamelCase(s string) string {
 }
 
 func UnderscoreToLowerCamelCase(s string) string {
-	s = UnderscoreToLowerCamelCase(s)
+	s = UnderscoreToUpperCamelCase(s)
 	return string(unicode.ToLower(rune(s[0]))) + s[1:]
 }
 
